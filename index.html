@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+    <style>
+      
+    </style>
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">vignesh K</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo"  >VIGNESH K   </div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./images/vignesh.jpeg" alt="vignesh K Profile picture">
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1 ">Hello, I'm</p>
+        <h1 class="title">vignesh </h1>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('HARI.pdf')"
+          > 
+          Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+         
+          <img
+            src="./images/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/bala-surya-6a621b24a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'"
+            />
+            <img
+            src=" ./images/linkedin.png".png"
+            alt="My linkedin profile"
+            class="icon"
+            onclick="location.href='ign=share_via&utm_content=profile&utm_medium=ios_app"
+            />
+           
+            <img
+            src="./images/gmaill.png"
+            alt="My mail ID"
+            class="icon"
+            onclick="location.href='https://formsubmit.co/el/xajina'"
+            />
+
+            <img
+            src="./images/instagram.jpg"
+            alt="My instagram profile"
+            class="icon"
+            onclick="location.href='https://instagram.com/luc.ky_lad?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr'"
+            />  
+        
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="text-container">
+        <br><p style="font-size:24px; text-align:center;"> 
+          As a final-year B.Sc.  Computer Science student, this individual demonstrates a strong foundation in frontend fundamentals and 
+          possesses technical expertise in Python, Java, C, and C++. With a commitment to continuous learning, 
+          they actively seek out and familiarize themselves with the latest advancements in technology.
+          Their robust problem-solving skills, coupled with their ability to work efficiently in team-based environments, 
+          make them a valuable contributor to any project. By staying current with emerging trends and 
+          maintaining a strong focus on collaboration and effective communication, this individual is well-prepared for
+          a rewarding career within the rapidly evolving field of computer science.
+        </p><br>
+      </div>
+       <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./images/school.png"
+                alt="icon"
+                class="icon"
+              />
+              <h3> Secondary School</h3><br>
+              <p>SHRI ARABINDO MIRA (SAM) <br ><b>(FROM VI - XII) | 70%-85% </b> <br><br>MADURAI -625011 </p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./images/college.png"
+                alt="SKACAS logo "
+                class="icon"
+              />
+              <h3>Bachelor of Computer Science</h3><br>
+              <p>SRI KRISHNA ADITHYA COLLEGE OF ARTS AND  SCIENCE<br><b>(CGPA - 7.5)</b><br><br>Coimbatore-641042</p>
+            </div>
+          </div>
+        
+        </div>
+      </div>
+      
+      <img
+        src="./images/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#education'"
+      />
+    </section>
+
+    <section id="education">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">TECHNICAL SKILLS</h1>
+      <div class="education-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="education-sub-title">PROGRAMMING LANGUAGES  <br>& DATA BASE</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./images/PYTHON.jpg"
+                  alt=" Python icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PYTHON</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./images/JAVA.png"
+                  alt="java icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>java</h3>
+                  <p>Beginner</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./images/C.png"
+                  alt="C icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+               <article>
+                <img
+                  src="./images/C++.png"
+                  alt="C++ icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C++</h3>
+                  <p>Intermediate</p>
+                </div>
+
+              </article>
+              <article>
+                <img
+                  src="./images/MYSQL.png"
+                  alt="mysql icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MYSQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+             
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="education-sub-title">Frontend Development  </h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./images/html.png"
+                  alt="html icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Advanced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./images/javascript.png"
+                  alt="javascript icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JAVASCRIPT</h3>
+                  <p>BASIC</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./images/css.png"
+                  alt="css icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./images/VB.jpg"
+                  alt="education icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>VISUALBASIC</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./images/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="education-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./images/project.png"
+                alt="Project 1 icon "
+                class="project-img"
+              />
+            </div>
+             <h2 class="education-sub-title project-title">Project One </h2>
+             <P style="font-size: 25px;"><strong>My Portfolio</strong></P>
+             <div class="btn-container">
+             </div>
+           </div>
+  
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./images/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./images/gmaill.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="https://formsubmit.co/el/xajina ">send a mail </a></p>
+        
+          <img
+            src="./images/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Kavin8859'"
+            />
+          <img
+            src="./images/linkedin.png".png"
+            alt="My linkedin profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/kavi-varshan-s-169427248/'"
+            />
+           
+          <img
+            src="./images/gmaill.png"
+            alt="My mail ID"
+            class="icon"
+            onclick="location.href='mailto:Kavinkavin8859@gmail.com'"
+            />
+
+          <img
+            src="./images/instagram.jpg"
+            alt="./My instagram profile"
+            class="icon"
+            onclick="location.href='https://www.instagram.com/__kavin_11_/'"
+            />
+        
+        </div>
+     
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169;  vignesh K .</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
